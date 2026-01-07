@@ -1,4 +1,6 @@
-const pdfjsLib = require("pdfjs-dist/legacy/build/pdf.js");
+// const pdfjsLib = require("pdfjs-dist/legacy/build/pdf.js");
+const pdfjs = require("pdfjs-dist");
+
 const { GoogleGenAI } = require("@google/genai");
 const saveResumes = require("../db/resume");
 
